@@ -1,0 +1,42 @@
+body {
+    margin: 1em auto;
+    max-width: 40em;
+    color: #444;
+    padding: 6px;
+    font-family: "Segoe UI", Segoe, Tahoma, Geneva, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  a:not(.inline-link) {
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    display: inline-flex;
+  }
+  
+  .social-links > a {
+    margin: 1em;
+  }
+  
+  a:hover {
+    font-weight: bold;
+  }
+  
+  article,
+  article > p {
+    padding-bottom: 0.5em;
+  }
+  
+  section {
+    box-sizing: border-box;
+  }
+  
+  section {
+    border-top: 1px solid #ccc;
+  }
+  
