@@ -10,11 +10,11 @@ tags:
 ---
 With this overhaul I wanted to take an existing template and go through the process of converting an HTML5 Template into a WordPress Template.
 
-I picked out my theme from https://html5up.net to get started.  I had a fairly high level overview of how WordPress templates worked and the process for converting it was simple yet you can see where there is a lot of room for customization. 
+I picked out my theme from <a target="_blank" href="https://html5up.net">https://html5up.net</a> to get started.  I had a fairly high level overview of how WordPress templates worked and the process for converting it was simple yet you can see where there is a lot of room for customization. 
 
-For this article I will be using the theme found at https://html5up.net/future-imperfect 
+For this article I will be using the theme found at <a target="_blank" href="https://html5up.net/future-imperfect/">https://html5up.net/future-imperfect</a>
 
-BASICS OF WORDPRESS
+<h3>BASICS OF WORDPRESS</h3>
 
 So I first began by looking at what the basic components of a Wordpress theme were and what I would need to achieve my goal of converting my HTML5 Template into a WordPress Theme.  I quickly found that at the bare minimum you only need a index.php and index.css file to make a site actually work on WordPress. 
 
@@ -22,7 +22,7 @@ Now of course, this doesn’t take us very far, so we’ll break it out into mor
 
 They are:
 
-    Style.css - Contains the themes css, provided by https://html5up.net
+    Style.css - Contains the themes css, provided by <a target="_blank" href="https://html5up.net">https://html5up.net</a>
 
     Index.php - Home page template,
 
@@ -40,11 +40,11 @@ They are:
 
 With these I will be able to take the Future Imperfect theme and make it into a scalable and customizable template for this website. 
 
-SERVER ENVIRONMENT
+<h3>SERVER ENVIRONMENT</h3>
 
-I’m running a $5 digital ocean droplet which can be found at https://marketplace.digitalocean.com/apps/openlitespeed-wordpress 
+I’m running a $5 digital ocean droplet which can be found at <a target="_blank" href="https://marketplace.digitalocean.com/apps/openlitespeed-wordpress">https://marketplace.digitalocean.com/apps/openlitespeed-wordpress</a> 
 
-THEME OUTLINE 
+<h3>THEME OUTLINE</h3> 
 
 Future Imperfect Outline 
 
@@ -62,7 +62,7 @@ All except for the sidebar section will be reused on the posts and contact page 
 
 Outside of this basic theme, I will be creating a contact page using Contact Form 7 which will be in and of itself its own theme located at contact.php. 
 
-WHAT NEEDS TO BE CUSTOMIZABLE
+<h3>WHAT NEEDS TO BE CUSTOMIZABLE</h3>
 
 I will be bringing out certain sections into their own widgets, such as everything in the sidebar and the header menu navigation.  This is so that I can quickly update the text / content without having to edit the templates themselves. 
 
@@ -137,6 +137,6 @@ Below this you see where we are getting the Contact Form 7 variables passed into
 
 This provides me with a way to quickly update the HTML if I need to and also be able to control the flow of the text on the page.
 
-GOING FORWARD
+<h3>GOING FORWARD</h3>
 
 Going forward I would like to add a lot more functionality to the website, including more page types, a more wiki-like search function for myself as well as a more robust system for putting applications out there with actual server-side code rather than having to rely on primarily client side code for the time being.>
