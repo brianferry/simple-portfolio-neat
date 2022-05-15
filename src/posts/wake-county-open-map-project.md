@@ -7,4 +7,8 @@ prism: false
 tags:
   - Tags
 ---
-bc
+You can type in an address in or around wake county and you can  search for any existing / proposed greenways within 1-5 miles from the  place you searched.
+
+The map service has been provided from <a target="_blank" href="https://data-wake.opendata.arcgis.com/">Wake County Open Data.</a>
+
+This was a project of my own that I started in order to get used to the ESRI JavaScript 4.0 framework and Angular 5.
