@@ -5,7 +5,9 @@ author: Brian Ferry
 date: 2022-05-15T17:39:00.100Z
 prism: false
 tags:
-  - Tags
+  - Migrated
+  - Geospatial
+  - Arcgis
 ---
 You can type in an address in or around wake county and you can  search for any existing / proposed greenways within 1-5 miles from the  place you searched.
 
