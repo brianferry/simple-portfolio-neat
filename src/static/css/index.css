@@ -8,6 +8,7 @@ body {
   
   header {
     text-align: center;
+    padding-bottom: 1em;
   }
   
   a:not(.inline-link) {
@@ -17,6 +18,11 @@ body {
     text-transform: uppercase;
     padding: 1em 1.5em;
     display: inline-flex;
+  }
+
+  a.no-decoration {
+    text-decoration: none;
+    color: black;
   }
   
   .social-links > a {
@@ -40,3 +46,20 @@ body {
     border-top: 1px solid #ccc;
   }
   
+  footer { 
+    border-top: 1px solid #ccc;
+    margin-top: 1em;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h1.blog-title {
+    margin-bottom: 0px;
+  }
+
+  .attribution {
+    margin-top: 0;
+    text-align: center;
+  }
