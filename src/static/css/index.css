@@ -8,7 +8,6 @@ body {
   
   header {
     text-align: center;
-    padding-bottom: 1em;
   }
   
   a.button {
@@ -36,15 +35,7 @@ body {
   article,
   article > p {
     padding-bottom: 0.5em;
-  }
-  
-  section {
-    box-sizing: border-box;
-  }
-  
-  section {
-    border-top: 1px solid #ccc;
-  }
+  } 
   
   footer { 
     border-top: 1px solid #ccc;
@@ -62,4 +53,32 @@ body {
   .attribution {
     margin-top: 0;
     text-align: center;
+  }
+
+  ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul li:not(:first-child) {
+    float: right;
+  }
+
+  @media screen and (max-width: 375px) {
+    a {
+      padding: 14px 4px;
+    }
   }
